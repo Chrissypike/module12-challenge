@@ -113,22 +113,22 @@ function addEmployee() {
             {
                 name: "first_name",
                 type: "input",
-                message: "What is the employee's first name?"
+                message: "Enter the employee's first name"
             }, 
             {
                 name: "last_name",
                 type: "input",
-                message: "What is the employee's last name?"
+                message: "Enter the employee's last name"
             }, 
             {
                 name: "roles_id",
                 type: "input",
-                message: "What is the employee's role id?"
+                message: "Enter the employee's role id"
             }, 
             {
                 name: "manager_id",
                 type: "input",
-                message: "What is your manager's id?",
+                message: "Enter your manager's id",
             }, 
         ]
     )
@@ -149,7 +149,7 @@ function addDept() {
         {
             name: "department_name",
             type: "input",
-            message: "What is the name of the department you want to add?"
+            message: "Enter the name of the department you want to add"
         }, 
     )
         .then(function(answer) {
@@ -171,17 +171,17 @@ function addRole() {
             {
                 name: "title",
                 type: "input",
-                message: "What is the name of the new role title?"
+                message: "Enter the name of the new role title"
             }, 
             {
                 name: "salary",
                 type: "input",
-                message: "What is the yearly salary of this role?"
+                message: "Enter the yearly salary of this role"
             }, 
             {
                 name: "department_name",
                 type: "input",
-             message: "What department is this new role under?"
+             message: "Enter the department this new role is under"
             }
         ])
         .then(function(answer) {
@@ -203,12 +203,12 @@ function updateRole() {
         {
             name: "employeeID",
             type: "input",
-            message: "What is the employee's ID ?"
+            message: "Enter the employee's ID"
         }, 
         {
             name: "roleID",
             type: "input",
-            message: "What is the employee's new role ID?"
+            message: "Enter the employee's new role ID"
         }
     ])
         .then(function(answer) {
