@@ -4,8 +4,9 @@ CREATE DATABASE workplace_db;
 USE workplace_db;
 
 CREATE TABLE department (
-    id INT AUTO_INCREMENT,
+    id INT NOT NULL AUTO_INCREMENT,
     department_name VARCHAR(30) NOT NULL,
+    roles_id INT NOT NULL,
     PRIMARY KEY (id)
 );
 
@@ -18,7 +19,7 @@ CREATE TABLE roles (
 );
 
 CREATE TABLE employee (
-    id INT NOT NULL,
+    id INT NOT NULL AUTO_INCREMENT,
     first_name VARCHAR(30),
     last_name VARCHAR(30),
     roles_id INT NOT NULL,

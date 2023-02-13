@@ -1,8 +1,8 @@
-INSERT INTO department (department_name, roles_id)
-VALUES ("Backstock", "1"),
-       ("Sales Floor", "2"),
-       ("Fitting rooms", "3"),
-       ("Registers", "4");
+INSERT INTO department (id, department_name, roles_id)
+VALUES (1,"Backstock", 1),
+       (2,"Sales Floor", 2),
+       (3,"Fitting rooms", 3),
+       (4,"Registers", 4);
 
 
 INSERT INTO roles (title, salary, department_id)
