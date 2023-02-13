@@ -13,11 +13,11 @@ VALUES ("Stock Associate", 19000, 1),
        ("Manager", 25000, 5);
 
 
-INSERT INTO employee (id, first_name, last_name, roles_id, manager_id)
-VALUES (1,"Joel", "Miller", "2", "2" ),
-       (2, "Lily", "Potter", "1", "1" ),
-       (3, "Rob", "Johnson", "3", "3"),
-       (4, "Cyber", "Jo", "5", "5" ),
-       (5, "Sabrina", "Carrier", "4", "4" ),
-       (6, "Wayne", "Wheeler", "1", "1"),
-       (7, "Percy", "Holmes", "2", "2");
+INSERT INTO employee (id, first_name, last_name, roles_id,)
+VALUES (1,"Joel", "Miller", "2", 2 ),
+       (2, "Lily", "Potter", "1", 1 ),
+       (3, "Rob", "Johnson", "3", 3),
+       (4, "Cyber", "Jo", "5", 5 ),
+       (5, "Sabrina", "Carrier", "4", 4 ),
+       (6, "Wayne", "Wheeler", "1", 1),
+       (7, "Percy", "Holmes", "2", 2);
